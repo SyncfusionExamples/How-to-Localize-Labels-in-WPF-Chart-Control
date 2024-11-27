@@ -26,7 +26,7 @@ public MainWindow()
 
  ![Add localized culture value](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNzQ3Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.HHbaZGselIepJE2F0FG3mYd04KlKoWcr67h2eiTU0aI)
 
-The following image illustrates the WPF Chart successfully localized in the French language, displaying the changes applied through the provided localization steps.
+The following image illustrates the [WPF Chart](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfChart.html) successfully localized in the French language, displaying the changes applied through the provided localization steps.
  
  ## Output
  ![Localization demo](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNzQ4Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.8jhoSR8hp2sRn-mPUMrbEFjfSBTeSIQ8OEvxzjA4uOs)
