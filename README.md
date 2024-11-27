@@ -37,4 +37,4 @@ The following image illustrates the [WPF Chart](https://help.syncfusion.com/cr/w
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For better understanding, we have attached the [GitHub project]() for your future reference.
+For more details, refer to the KB on [how to localize lables in WPF chart?](https://support.syncfusion.com/kb/article/18165/how-to-localize-labels-in-wpf-chart-control).
