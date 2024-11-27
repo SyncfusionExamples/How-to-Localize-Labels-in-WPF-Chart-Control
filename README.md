@@ -16,23 +16,20 @@ public MainWindow()
 ## Steps to localize based on CurrentUICulture using Resource files
 
 1.	Create new folder, named as Resources in the application.
-2.	Add the default resource file of Chart into Resources folder (Syncfusion.SfChart.WPF.resx).
- 
- ![Add_Default_Folder.png](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNTEwIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.PRnjBmQYSMT_kThqqZYolBc2n9L2o-hKhoGHBHMSNzc)
 
-3.	Right-click on the Resources folder, select Add, and then click New Item. In the Add New Item dialog, select the Resource File option and name the file as `Syncfusion.SfChart.WPF.<culture name>.resx`. For example, name it as `Syncfusion.SfChart.WPF.fr-FR.resx` to add localization support for the French language.
+2.	Right-click on the Resources folder, select Add, and then click New Item. In the Add New Item dialog, select the Resource File option and name the file as `Syncfusion.SfChart.WPF.<culture name>.resx`. For example, name it as `Syncfusion.SfChart.WPF.fr-FR.resx` to add localization support for the French language.
 
- ![Add_Localization_Resource_File.png](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNTExIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.FcENlDMM3L40xbxMBMvdO_JF7UDWFGGnyXKGL3Ank68)
+ ![Add resource file](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNzQ2Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.F50nTICguTBOLogYEQPnYVxPMu_7OsIynI9kHGd_OZo)
 
-4.	The culture name that indicates the name of language and country.
-5.	Now, add the Name/Value pair in Resource Designer of Syncfusion.SfChart.WPF.fr-FR.resx file and change its corresponding value to the corresponding culture.
+3.	The culture name that indicates the name of language and country.
+4.	Now, add the Name/Value pair in Resource Designer of Syncfusion.SfChart.WPF.fr-FR.resx file and change its corresponding value to the corresponding culture.
 
- ![Add_Localized_Value.png](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNTE0Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.7flN-Ic-sbPFkAJ4vf3ZK80ZqTZJ-cGUqI0LlyQB02k) 
+ ![Add localized culture value](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNzQ3Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.HHbaZGselIepJE2F0FG3mYd04KlKoWcr67h2eiTU0aI)
 
 The following image illustrates the WPF Chart successfully localized in the French language, displaying the changes applied through the provided localization steps.
  
  ## Output
- ![FinalOutput.png](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNTEzIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.PE-DDVupHY9H6vfQ0kDSLqrpk9l7elAR9boMCecIj68)
+ ![Localization demo](https://support.syncfusion.com/kb/agent/attachment/article/18165/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyNzQ4Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.8jhoSR8hp2sRn-mPUMrbEFjfSBTeSIQ8OEvxzjA4uOs)
 
 ## Troubleshooting
 
@@ -40,4 +37,4 @@ The following image illustrates the WPF Chart successfully localized in the Fren
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For better understanding, we have attached the [GitHub project](https://github.com/SyncfusionExamples/How-to-Localize-Labels-in-WPF-Chart-Control) for your future reference.
+For better understanding, we have attached the [GitHub project]() for your future reference.

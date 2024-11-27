@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <Grid>
+    <Grid Height="550" Width="750">
 
         <Grid.DataContext>
             <local:ViewModel />
@@ -25,18 +25,18 @@
             </syncfusion:SfChart.SecondaryAxis>
 
             <syncfusion:SfChart.Series>
-                <syncfusion:HiLoOpenCloseSeries 
-            Name="series" 
-            ItemsSource="{Binding StockPriceDetails}" 
-            XBindingPath="Date"    
-            High="High" 
-            Low="Low" 
-            Open="Open" 
-            Close="Close" 
-            Label="HiLoOpenClose"
-            Interior="#4A4A4A"
-            EnableAnimation="True"
-            ShowTooltip="True" />
+                <syncfusion:HiLoOpenCloseSeries
+                            Name="series" 
+                            ItemsSource="{Binding StockPriceDetails}" 
+                            XBindingPath="Date"    
+                            High="High" 
+                            Low="Low" 
+                            Open="Open" 
+                            Close="Close" 
+                            Label="HiLoOpenClose"
+                            Interior="#4A4A4A"
+                            EnableAnimation="True"
+                            ShowTooltip="True" />
             </syncfusion:SfChart.Series>
 
             <syncfusion:SfChart.Behaviors>
